@@ -45,19 +45,20 @@ body {
   color: black;
 }
 
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {   
+/* Create three unequal columns that floats next to each other */
+.column {
   float: left;
-  width: 75%;
+  padding: 10px;
 }
 
-/* Right column */
-.rightcolumn {
-  float: left;
+/* Left and right column */
+.column.side {
   width: 25%;
-  background-color: #f1f1f1;
-  padding-left: 20px;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
 }
 
 /* Fake image */
@@ -65,13 +66,6 @@ body {
   background-color: #aaa;
   width: 100%;
   padding: 20px;
-}
-
-/* Add a card effect for articles */
-.card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
 }
 
 /* Clear floats after the columns */
@@ -97,10 +91,9 @@ body {
   }
 }
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
     width: 100%;
   }
 }

@@ -16,17 +16,24 @@ body {
 /* Header/Blog Title */
 .header {
   padding: 30px;
-  text-align: center;
   background: white;
+  position: relative;
 }
 
 .header h1 {
   font-size: 50px;
+  postion:absolute;
+  top:50%
+}
+
+.header h2 {
+  postion:absolute;
+  top:50%
 }
   
 .header img {
   height: 200px;
-  vertical-align: middle;
+  top: 50%;
 }
 
 /* Style the top navigation bar */
@@ -142,8 +149,9 @@ body {
 <body>
 
 <div class="header">
-  <img src="2020 Profile.JPG" alt="Profile Picture" height="200" align="center"><h1>Luigi Morino</h1>
-  <p>EdTech, behavioural economics, China policy research</p>
+  <img src="2020 Profile.JPG" alt="Profile Picture" height="200" align="center">
+  <h1>Luigi Morino</h1>
+  <h2>EdTech, behavioural economics, China policy research</h2>
 </div>
 
 <div class="topnav">

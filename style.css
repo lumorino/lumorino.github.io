@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Helvetica;
+    text-align: justify;
+    line-height: 1.6;
+    padding: 10px;
+    background: white;
+  }
+  
+  /* Header/Blog Title */
+  .mainContent{
+    margin: 0px 25%;
+    padding: 0px;
+  }
+  .header {
+    display:ltr;
+    padding: 30px;
+    display: flex;
+    justify-content:center;
+    background: white;
+  }
+  .header div img{
+    margin-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: 1.5px solid #8e8e8e;
+   }
+  .header div h1 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  .header .personal-inf{
+    margin-left: 20px;
+  }
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #ff3333;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change topnav links color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Create three unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+  }
+  
+
+    
+  .column.middle img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+    
+    /* Style the middle column links */
+    .column.middle .btn{
+      display: flex;
+      justify-content: center;
+    }
+  .column.middle .btn a {
+    display: block;
+    color: #f2f2f2;
+    background-color: #ff3333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+    /* Change middle column links color on hover */
+  .column.middle a:hover {
+    background-color: #f2f2f2;
+    color: black;
+    }
+    
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 10px;
+    text-align: center;
+    color: #f2f2f2;
+    background: #ff3333;
+    margin-top: 20px;
+    overflow: hidden;
+    clear: both;
+  }
+  
+  /* Style the footer links */
+  .footer a {
+    float: center;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change footer links color on hover */
+  .footer a:hover {
+    background-color: #f2f2f2;
+    color: black;
+  }

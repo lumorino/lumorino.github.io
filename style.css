@@ -10,8 +10,8 @@
     background: white;
   }
   
-  /* Header/Blog Title */
-  .mainContent{
+  /* Header*/
+  .main_content{
     margin: 0px 25%;
     padding: 0px;
   }
@@ -35,13 +35,13 @@
   .header .personal-inf{
     margin-left: 20px;
   }
-  /* Style the top navigation bar */
+  /* Topnav bar */
   .topnav {
     overflow: hidden;
     background-color: #ff3333;
   }
   
-  /* Style the topnav links */
+  /* Topnav links */
   .topnav a {
     float: left;
     display: block;
@@ -57,27 +57,14 @@
     color: black;
   }
   
-  /* Create three unequal columns that floats next to each other */
-  .column {
-    float: left;
-    padding: 10px;
-  }
-  
-
-    
-  .column.middle img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
     
     /* Style the middle column links */
-    .column.middle .btn{
+  .btn{
       display: flex;
       justify-content: center;
     }
 
-  .column.middle .btn a {
+  .btn a {
     display: block;
     color: #f2f2f2;
     background-color: #ff3333;
@@ -87,7 +74,7 @@
   }
   
     /* Change middle column links color on hover */
-  .column.middle a:hover {
+  .btn a:hover {
     background-color: #f2f2f2;
     color: black;
     }
